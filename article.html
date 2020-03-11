@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Yale School of Art</title>
+<!-- Bootstrap CSS -->
+<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome CSS-->
+<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<!-- Custom CSS -->
+<link href="css/style.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+<!-- Animate CSS -->
+<link href="assets/animate/animate.css" rel="stylesheet">
+<!-- Owl Carousel -->
+<link href="assets/owl-carousel/css/owl.carousel.css" rel="stylesheet">
+<link href="assets/owl-carousel/css/owl.theme.css" rel="stylesheet">
+<!-- Favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Pre Loader -->
+<div id="dvLoading"></div>
+<!-- Header Start -->
+<header>
+  <div class="top-wrapper hidden-xs">
+    <div class="container">
+      <div class="col-md-4 col-sm-6 hidden-xs top-wraper-left no-padding">
+        <ul class="header-social-icons">
+          <li class="facebook"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+          <li class="twitter"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li class="linkedin"><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          <li class="instagram"><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          <li class="google-plus"><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+          <li class="dribbble"><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+        </ul>
+      </div>
+      <div class="col-md-8 col-sm-6">
+        <ul class="top-right pull-right ">
+          <!-- Login -->
+          <li class="login"><a href="#"><i class="fa fa-lock"></i>Login</a>
+            <div class="login-form">
+              <h4>Login</h4>
+              <form action="#" method="post">
+                <input type="text" name="name" placeholder="Username">
+                <input type="password" name="password" placeholder="Password">
+                <button type="submit" class="btn">Login</button>
+              </form>
+            </div>
+          </li>
+          <!-- Register -->
+          <li class="register"><a href="#"><i class="fa fa-user"></i>Sign Up</a>
+            <div class="register-form">
+              <h4>Sign Up</h4>
+              <span>Please sign up the account</span>
+              <form action="#" method="post">
+                <input type="text" name="user-name" placeholder="Username">
+                <input type="email" name="user-email" placeholder="Email">
+                <input type="password" name="user-password" placeholder="Password">
+                <button type="submit" class="btn">Register</button>
+              </form>
+            </div>
+          </li>
+          <li class="search"><i class="fa fa-search" aria-hidden="true"></i>
+            <div id="search-form-container">
+              <form id="search-form" action="#" style="display: none;" class="">
+                <input type="search" id="search" name="search" placeholder="Search...">
+                <input type="submit" id="search-submit" value="">
+                <span id="close-form" class="close">x</span>
+              </form>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="logo-bar hidden-xs">
+    <div class="container"> 
+      <!-- Logo -->
+      <div class="row">
+        <div class="col-sm-4"><a href="index.html"> <img src="images/yale_logo.png" alt="Yale School of Art"></a> </div>
+        <div class="col-sm-8">
+          <ul class="contact-info pull-right">
+            <li><i class="fa fa-phone"></i>
+              <p> <span>Call us</span><br>
+                203-432-2600</p>
+            </li>
+            <li><i class="fa fa-envelope"></i>
+              <p><span>Email Us</span><br>
+                <a href="mailto:support@sbtechnosoft.com">artschool.info@yale.edu</a></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wow fadeInDown navigation" data-offset-top="197" data-spy="affix">
+    <div class="container">
+      <nav class="navbar navbar-default">
+        <div class="row"> 
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            <a class="navbar-brand" href="index.html"><img src="images/yale_logo.png" alt="Yale Art"/></a> </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class=""><a href="index.html">Home</a></li>
+              <li class="dropdown"><a href="about-us.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a></li>
+              <li class="dropdown"> <a href="applicants.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Applicants<i class="fa fa-angle-down"></i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="admissions.html">Admissions</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown active"> <a href="news.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News</a></li>
+              <li class="dropdown"> <a href="gallery.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery</a></li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse --> 
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- Header End -->
+<!-- Inner Banner Wrapper Start -->
+<div class="inner-banner">
+  <div class="container">
+    <div class="col-sm-12">
+      <h2>News Post Page</h2>
+    </div>
+    <div class="col-sm-12 inner-breadcrumb">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>News</li>
+        <li>News Post Page</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- Inner Banner Wrapper End -->
+<section class="inner-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="inner-wrapper-main news news-post">
+        <div class="col-sm-7 col-md-8">
+          <div class="news-info">
+            <h3>Lorem Ipsum is simply dummy</h3>
+            <div class="news-tags">
+              <ul class="time">
+                <li><i class="fa fa-user" aria-hidden="true"></i> by Wilson</li>
+                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 1 day ago</li>
+              </ul>
+              <ul class="tags pull-right">
+                <li><a href="#">Education</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">University</a></li>
+              </ul>
+            </div>
+            <div class="news-thumb"> <img src="https://placeholdit.imgix.net/~text?txtsize=80&bg=333&txtclr=cccccc&txt=600%C3%97300&w=600&h=300" alt="News Image"> </div>
+            <div class="news-cnt">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. </p>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
+            </div>
+            <div class="news-thumb"> <img src="https://placeholdit.imgix.net/~text?txtsize=80&bg=333&txtclr=cccccc&txt=600%C3%97300&w=600&h=300" alt="News Image"> </div>
+            <div class="news-cnt">
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. </p>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
+            </div>
+          </div>
+          <div class="comments">
+            <h2>Comments</h2>
+            <div class="row">
+              <div class="col-sm-2"> <a class="hover-img" href="#"> <img src="images/testimonials1.png" alt="Testimonials"> </a> </div>
+              <div class="col-sm-10 meta-info">
+                <h3><a href="#">Lorem Ipsum is simply dummy</a></h3>
+                <div class="meta"> 2 days ago</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+          <h2>Leave a Comment </h2>
+          <form>
+            <div class="form-group">
+              <input type="text" placeholder="Name" name="name" required class="form-control form-item">
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Phone" name="phone" required class="form-control form-item">
+            </div>
+            <div class="form-group">
+              <input type="text" placeholder="Email" name="email" required class="form-control form-item">
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Content" name="content" rows="3" class="form-control form-item"></textarea>
+            </div>
+            <button class="btn btn-1" type="submit">Submit</button>
+          </form>
+        </div>
+        <div class="col-sm-5 col-md-4">
+          <div class="sidebar">
+            <div class="row">
+              <div id="custom-search-input">
+                <div class="input-group col-md-12">
+                  <input type="text" class="form-control input-lg" placeholder="Serach" />
+                  <span class="input-group-btn">
+                  <button class="btn btn-info btn-lg" type="button"> <i class="glyphicon glyphicon-search"></i> </button>
+                  </span> </div>
+              </div>
+            </div>
+            <div class="latest-blogs">
+              <h2>Latest News</h2>
+              <div class="latest-blog">
+                <div class="row">
+                  <div class="col-sm-4"> <a class="hover-img" href="#"> <img alt="image" src="images/single-blog-img.jpg"> </a> </div>
+                  <div class="col-sm-8 meta-info">
+                    <h3><a href="#">Lorem Ipsum is simply dummy</a></h3>
+                    <div class="meta"> 1 days ago by Kemper</div>
+                  </div>
+                </div>
+              </div>
+              <div class="latest-blog">
+                <div class="row">
+                  <div class="col-sm-4"> <a class="hover-img" href="#"> <img alt="image" src="images/single-blog-img1.jpg"> </a> </div>
+                  <div class="col-sm-8 meta-info">
+                    <h3><a href="#">Lorem Ipsum is simply dummy</a></h3>
+                    <div class="meta"> 2 days ago by Wilson</div>
+                  </div>
+                </div>
+              </div>
+              <div class="latest-blog">
+                <div class="row">
+                  <div class="col-sm-4"> <a class="hover-img" href="#"> <img alt="image" src="images/single-blog-img2.jpg"> </a> </div>
+                  <div class="col-sm-8 meta-info">
+                    <h3><a href="#">Lorem Ipsum is simply dummy</a></h3>
+                    <div class="meta"> 3 days ago by Norris</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="unordered-list">
+              <h2> Archive </h2>
+              <div class="row">
+                <div class="col-sm-6 col-xs-6">
+                  <ul>
+                    <li><a href="#">Mar 2016</a></li>
+                    <li><a href="#">Jan 2016</a></li>
+                    <li><a href="#">Jun 2016</a></li>
+                    <li><a href="#">Aug 2016</a></li>
+                    <li><a href="#">Oct 2016</a></li>
+                    <li><a href="#">Nov 2016</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-6 col-xs-6">
+                  <ul>
+                    <li><a href="#">Jul 2016</a></li>
+                    <li><a href="#">may 2016</a></li>
+                    <li><a href="#">Feb 2016</a></li>
+                    <li><a href="#">Apr 2016</a></li>
+                    <li><a href="#">Sep 2016</a></li>
+                    <li><a href="#">Dec 2015</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="download-services">
+              <h3>Please Download our latest News </h3>
+              <a href="#">Download</a> </div>
+            <div class="unordered-list">
+              <h2> Catrgories </h2>
+              <ul>
+                <li><a href="#">Papilion Minter Savior</a></li>
+                <li><a href="#">Draught Vaein Mynel</a></li>
+                <li><a href="#">Simple Post Formatting Example</a></li>
+                <li><a href="#">My Style Statement</a></li>
+                <li><a href="#">Post with Image Slider</a></li>
+              </ul>
+            </div>
+            <div class="tags">
+              <h2> Tags </h2>
+              <ul>
+                <li><a href="#">Tag</a></li>
+                <li><a href="#">Blog tag</a></li>
+                <li><a href="#">Service Tag</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Science</a></li>
+                <li><a href="#">Health</a></li>
+                <li><a href="#">Economy</a></li>
+                <li><a href="#">Recruitement</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Call to Action start -->
+<div class="call-to-action">
+  <div class="container">
+    <h3>JOIN US TODAY, JOIN YALE!</h3>
+    <p>Join our weekly newsletter, be in the know, stay in the now!</p>
+    <a href="#">Sign Up</a> </div>
+</div>
+<!-- Call to Action End --> 
+<div class="gal-container full-width">
+  <div class="col-md-3 col-sm-6 co-xs-12 gal-item">
+    <div class="box"> <a href="#" data-toggle="modal" data-target="#1">
+      <div class="caption">
+        <h4>Gallery 1</h4>
+        <p>Yale University in all its glory.</p>
+        <i class="fa fa-search" aria-hidden="true"></i> </div>
+      <img src="images/yale1.jpeg" alt="Yale 1"> </a>
+      <div class="modal fade" id="1" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <div class="modal-body"> <img src="images/yale1.jpeg" alt="Yale 1"> </div>
+            <div class="col-md-12 description">
+              <h4>Yale University</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-6 co-xs-12 gal-item">
+    <div class="box"> <a href="#" data-toggle="modal" data-target="#2">
+      <div class="caption">
+        <h4>Gallery 2</h4>
+        <p>Library at Yale.</p>
+        <i class="fa fa-search" aria-hidden="true"></i> </div>
+      <img src="images/school3.jpeg" alt="Yale Library"> </a>
+      <div class="modal fade" id="2" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <div class="modal-body"> <img src="images/school3.jpeg" alt="Yale Library"> </div>
+            <div class="col-md-12 description">
+              <h4>Library at Yale</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-sm-6 co-xs-12 gal-item">
+    <div class="box"> <a href="#" data-toggle="modal" data-target="#3">
+      <div class="caption">
+        <h4>Gallery 3</h4>
+        <p>A book is the greatest invention which leads to more inventions.</p>
+        <i class="fa fa-search" aria-hidden="true"></i> </div>
+      <img src="images/library3.jpeg" alt="Library Books"> </a>
+      <div class="modal fade" id="3" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <div class="modal-body"> <img src="images/library3.jpeg" alt="Library Books"> </div>
+            <div class="col-md-12 description">
+              <h4>A book is the greatest invention which leads to more inventions.</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col col-md-3 col-sm-6 co-xs-12 gal-item">
+    <div class="box"> <a href="#" data-toggle="modal" data-target="#4">
+      <div class="caption">
+        <h4>Gallery 4</h4>
+		  <p>The culmination of it all</p>
+		  <p>Graduation Day!</p>
+        <i class="fa fa-search" aria-hidden="true"></i> </div>
+      <img src="images/grad1.jpeg" alt="Grad 1"> </a>
+      <div class="modal fade" id="4" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <div class="modal-body"> <img src="images/grad1.jpeg" alt="Grad 1"> </div>
+            <div class="col-md-12 description">
+              <h4>The culmination of it all, Graduation Day!</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer Links Start-->
+<footer>
+  <div class="container">
+    <div class="col-sm-3"><img src="images/yalelogobig.png" alt="Logo Yale"> </div>
+    <div class="col-sm-5">
+		
+      <div class="contactus">
+        <h2>Contact Us</h2>
+        <ul class="list-ul">
+          <li><i class="fa fa-map-marker"></i><div style="padding-left: 30px;">Yale School of Art<br>1156 Chapel Street, POB 208339<br>New Haven, Connecticut, 06520-8339</div></li>
+          <li><i class="fa fa-phone"></i>203-432-2600</li>
+          <li><i class="fa fa-envelope"></i><a href="mailto:artschoo.info@yale.edu">artschool.info@yale.edu</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm-4 subscirbe pull-right">
+      <h2>Newsletter</h2>
+      <p class="sub"><span>Subscribe</span> to Our Newsletter to get Important Blog Posts &amp; Inside Scoops:</p>
+      <div class="form">
+        <input type="text" placeholder="Enter your Email" id="exampleInputName" class="form-control first">
+        <input type="text" class="bttn" style="padding-right: 2px;" value="Subscribe">
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- Footer Links End --> 
+<!-- Copy Rights Start -->
+<div class="footer-wrapper">
+  <div class="container">
+    <p>&copy; Copyright 
+	<script type="text/javascript">
+	var d=new Date();
+	document.write(d.getFullYear());
+	</script> 
+      Yale School of Art | All Rights Reserved.</p>
+	<p class="footer-bottom" style="font-size: 10px;">This interactive media project was created by student for education purposes at the Art Institute of San Antonio and is no way intended for commerical gain or as a source of public information.</p>
+  </div>
+  <a id="scrool-top" href="#"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></a> 
+</div>
+<!-- Copy Rights End --> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="assets/jquery/jquery-3.1.1.min.js"></script> 
+<script src="assets/jquery/jquery.animateNumber.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="assets/easing/jquery.easing.min.js"></script> 
+<script src="assets/bootstrap/js/bootstrap.min.js"></script> 
+<script src="assets/wow/wow.min.js"></script> 
+<script src="assets/owl-carousel/js/owl.carousel.js"></script> 
+<script src="js/custom.js"></script>
+</body>
+</html>
