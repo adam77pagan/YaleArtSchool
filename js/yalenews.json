@@ -1,0 +1,58 @@
+// JSON Document
+
+var news = {
+	"title1": "Energy Choices Can Be Contagious",
+	"texts1": [
+		{
+			"P1": "A growing body of research shows that the behavior of peers has a significant influence on an individuals energy-related decisions, whether its choosing to install solar panels or to purchase a hybrid vehicle.  In short, personal energy choices can be contagious."
+		},
+		{
+			"P2": "But why exactly that occurs is less clear (Read more...)"
+		}
+	],
+	"photo1": [
+		{
+			"src": "images/news1.jpeg",
+		},
+		{
+			"alt": "News 1",
+		}
+	],
+	"title2": "Yale F&ES To Become The Yale School Of The Environment",
+	"texts2": [
+		{
+			"P1": "Effective July 1, 2020, the Yale School of Forestry & Environmental Studies will change its name to the Yale School of the Environment, a change that better reflects its established role as a leader in environmental scholarship, practice, and solutions. The change was approved by Yale President Peter Salovey and the Yale Corporation, the university's board of trustees, on February 8."
+		},
+		{
+			"P2": "For more than a century, the Yale School of Forestry & Environmental (Read more...)"
+		}
+	],
+	"photo2": [
+		{
+			"src": "images/news2.jpeg",
+		},
+		{
+			"alt": "News 2",
+		}
+	],
+	"title3": "High-tech Pump May Increase Risk of Death and Bleeding, Study Finds",
+	"texts3": [
+		{
+			"P1": "A new national study finds that use of the Impella circulatory support device is associated with higher rates of death and major bleeding than a common alternative, especially among patients with acute myocardial infarction and cardiogenic shock who are implanted with mechanical circulatory support devices."
+		},
+		{
+			"P2": "The Impella device supports a patientís heart by removing blood from (Read more...)"
+		}
+	],
+	"photo3": [
+		{
+			"src": "images/news3.jpeg",
+		},
+		{
+			"alt": "News 3",
+		}
+	]
+}
+
+
+

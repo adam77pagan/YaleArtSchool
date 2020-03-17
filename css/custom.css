@@ -10,10 +10,14 @@
 }
 
 .jumbopic {
-	background-image: url("../images/yale1.jpeg");
+	background-image: url("images/yale1.jpeg");
 	background-position: left -210px bottom 10px;
 	background-size: cover;
 	height: 60vh;
 	width: 33%;
 	background-repeat: no-repeat;
+}
+
+#sprite1 {
+	background: url("images/sprite.png") 0 0;
 }

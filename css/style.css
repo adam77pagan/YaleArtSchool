@@ -14,7 +14,7 @@
 10. Callouts
 11. Satisfied-wrapper
 12. Call to Action
-13. Team Wrapper
+13. Faculty Wrapper
 14. Testimonials Wrapper 
 15. Sponsers
 16. Ineer Wrapper
@@ -666,7 +666,7 @@ header {
 	background-position: center center;
 	background-size: cover;
 	float: left;
-	padding: 55px 0 50px;
+	padding: 20px 0 20px;
 	position: relative;
 	width: 100%;
 	z-index: 2;
@@ -677,6 +677,10 @@ header {
 	font-size: 30px;
 	margin: 0 0 30px 0;
 	font-weight: 600;
+}
+
+.inner-breadcrumb ul {
+	margin-right: 50px;
 }
 .inner-breadcrumb ul li:first-child::before {
 	display: none;
@@ -939,11 +943,11 @@ header {
 ================================================
 */
 .call-to-action {
-	padding: 110px 0 116px;
+	padding: 50px 0 56px;
 	width: 100%;
 	float: left;
 	clear: both;
-	background-image: url(https://placeholdit.imgix.net/~text?txtsize=144&bg=333&txtclr=cccccc&txt=1900%C3%971064&w=1900&h=1064);
+	background-image: url(#);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
@@ -978,7 +982,7 @@ header {
 	color: #fff;
 }
 .call-to-action a {
-	display: inline-block;
+	display: inline;
 	vertical-align: middle;
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -1028,7 +1032,7 @@ header {
 }
 /*
 ================================================
-13. Team Wrapper
+13. Faculty Wrapper
 ================================================
 */
 .team-wrapper {
@@ -1217,6 +1221,7 @@ header {
 .testimonials-wrapper .item {
 	text-align: center;
 	margin: 0 15px;
+	
 }
 .testimonials-wrapper .item img {
 	text-align: center;
@@ -1230,6 +1235,9 @@ header {
 	margin: 0 0 30px;
 	padding: 0;
 	border-radius: 50%;
+	object-fit: cover;
+	object-position: 40% 10;
+	overflow: hidden;
 }
 .testimonials-wrapper h3 {
 	text-align: center;
@@ -1287,7 +1295,7 @@ header {
 	float: left;
 	width: 100%;
 	background: #fff;
-	padding: 100px 0
+	padding: 30px 0
 }
 .inner-wrapper h2::after {
 	background-color: #6091BA;
@@ -2394,7 +2402,7 @@ inner-wrapper-main.html-elements mark {
 	margin: 0 0 15px 0;
 }
 .about-edu .unordered-list {
-	margin: 20px 0 0 0;
+	margin: 10px 0 0 0;
 }
 .about-edu img {
 	width: 100%;

@@ -27,7 +27,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
+<body onLoad="getArticle1()">
 <!-- Pre Loader -->
 <div id="dvLoading"></div>
 <!-- Header Start -->
@@ -114,14 +114,14 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li class=""><a href="index.html">Home</a></li>
-              <li class="dropdown"><a href="about-us.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a></li>
+              <li class="dropdown"><a href="index.html">Home</a></li>
+			  <li class="dropdown"> <a href="about-us.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<i class="fa fa-angle-down"></i></a>
+                    <ul class="dropdown-menu"><li><a href="contact-us.html">Contact Us</a></li></ul></li>
               <li class="dropdown"> <a href="applicants.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Applicants<i class="fa fa-angle-down"></i></a>
-                <ul class="dropdown-menu">
-                  <li><a href="admissions.html">Admissions</a></li>
-                </ul>
-              </li>
-
+			  		<ul class="dropdown-menu">
+						<li><a href="admissions.html">Admissions</a></li>
+						<li><a href="images/apply.pdf">Apply Now</a></li>
+				    </ul></li>
               <li class="dropdown active"> <a href="news.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News</a></li>
               <li class="dropdown"> <a href="gallery.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery</a></li>
             </ul>
@@ -137,13 +137,13 @@
 <div class="inner-banner">
   <div class="container">
     <div class="col-sm-12">
-      <h2>News Post Page</h2>
+      <h2>News</h2>
     </div>
     <div class="col-sm-12 inner-breadcrumb">
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li>News</li>
-        <li>News Post Page</li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="article.html">Article</a></li>
       </ul>
     </div>
   </div>
@@ -155,39 +155,44 @@
       <div class="inner-wrapper-main news news-post">
         <div class="col-sm-7 col-md-8">
           <div class="news-info">
-            <h3>Lorem Ipsum is simply dummy</h3>
+            <h3 id="heading3"></h3>
             <div class="news-tags">
               <ul class="time">
-                <li><i class="fa fa-user" aria-hidden="true"></i> by Wilson</li>
-                <li><i class="fa fa-clock-o" aria-hidden="true"></i> 1 day ago</li>
+                <li><i class="fa fa-user" aria-hidden="true"></i> by Elisabeth Reitman</li>
+                <li><i class="fa fa-clock-o" aria-hidden="true"></i> Feb 10, 2020</li>
               </ul>
               <ul class="tags pull-right">
-                <li><a href="#">Education</a></li>
+                <li><a href="#">Heart</a></li>
+                <li><a href="#">Death</a></li>
                 <li><a href="#">News</a></li>
-                <li><a href="#">University</a></li>
               </ul>
             </div>
-            <div class="news-thumb"> <img src="https://placeholdit.imgix.net/~text?txtsize=80&bg=333&txtclr=cccccc&txt=600%C3%97300&w=600&h=300" alt="News Image"> </div>
+            <div class="news-thumb"><a href="article.html"><img id="news3-image"></a></div>
             <div class="news-cnt">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. </p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
-            </div>
-            <div class="news-thumb"> <img src="https://placeholdit.imgix.net/~text?txtsize=80&bg=333&txtclr=cccccc&txt=600%C3%97300&w=600&h=300" alt="News Image"> </div>
-            <div class="news-cnt">
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. </p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
+              <p id="p3-1"></p>
+              <p id="p3-2"></p>
+              <p id="p3-3"></p>
+              <p id="p3-4"></p>
+              <p id="p3-5"></p>
+              <p id="p3-6"></p>
+              <p id="p3-7"></p>
+              <p id="p3-8"></p>
+              <p id="p3-9"></p>
+              <p id="p3-10"></p>
+              <p id="p3-11"></p>
+              <p id="p3-12"></p>
+              <p id="p3-13"></p>
+              <p id="p3-14"></p>
             </div>
           </div>
           <div class="comments">
             <h2>Comments</h2>
             <div class="row">
-              <div class="col-sm-2"> <a class="hover-img" href="#"> <img src="images/testimonials1.png" alt="Testimonials"> </a> </div>
+              <div class="col-sm-2"> <a id="sprite1" class="hover-img"></a> </div>
               <div class="col-sm-10 meta-info">
-                <h3><a href="#">Lorem Ipsum is simply dummy</a></h3>
-                <div class="meta"> 2 days ago</div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h3><a href="#">Naomi Desai</a></h3>
+                <div class="meta"> Feb 12, 2020</div>
+                <p>This is the largest study examining real-world outcomes with both of these devices to date, and our results were consistent.</p>
               </div>
             </div>
           </div>
@@ -213,7 +218,7 @@
             <div class="row">
               <div id="custom-search-input">
                 <div class="input-group col-md-12">
-                  <input type="text" class="form-control input-lg" placeholder="Serach" />
+                  <input type="text" class="form-control input-lg" placeholder="Search..." />
                   <span class="input-group-btn">
                   <button class="btn btn-info btn-lg" type="button"> <i class="glyphicon glyphicon-search"></i> </button>
                   </span> </div>
@@ -223,28 +228,19 @@
               <h2>Latest News</h2>
               <div class="latest-blog">
                 <div class="row">
-                  <div class="col-sm-4"> <a class="hover-img" href="#"> <img alt="image" src="images/single-blog-img.jpg"> </a> </div>
+                  <div class="col-sm-4"> <a class="hover-img" href="#"> <img alt="image" src="images/news1.jpeg"> </a> </div>
                   <div class="col-sm-8 meta-info">
-                    <h3><a href="#">Lorem Ipsum is simply dummy</a></h3>
-                    <div class="meta"> 1 days ago by Kemper</div>
+                    <h3><a href="#">Energy Choices Can Be Contagious</a></h3>
+                    <div class="meta"> Feb 6, 2020 by Kevin Dennehy</div>
                   </div>
                 </div>
               </div>
               <div class="latest-blog">
                 <div class="row">
-                  <div class="col-sm-4"> <a class="hover-img" href="#"> <img alt="image" src="images/single-blog-img1.jpg"> </a> </div>
+                  <div class="col-sm-4"> <a class="hover-img" href="#"> <img alt="image" src="images/news2.jpeg"> </a> </div>
                   <div class="col-sm-8 meta-info">
-                    <h3><a href="#">Lorem Ipsum is simply dummy</a></h3>
-                    <div class="meta"> 2 days ago by Wilson</div>
-                  </div>
-                </div>
-              </div>
-              <div class="latest-blog">
-                <div class="row">
-                  <div class="col-sm-4"> <a class="hover-img" href="#"> <img alt="image" src="images/single-blog-img2.jpg"> </a> </div>
-                  <div class="col-sm-8 meta-info">
-                    <h3><a href="#">Lorem Ipsum is simply dummy</a></h3>
-                    <div class="meta"> 3 days ago by Norris</div>
+                    <h3><a href="#">Yale F&amp;ES To Become ...</a></h3>
+                    <div class="meta"> Feb 10l, 2020 by Peter Salovey</div>
                   </div>
                 </div>
               </div>
@@ -254,52 +250,40 @@
               <div class="row">
                 <div class="col-sm-6 col-xs-6">
                   <ul>
-                    <li><a href="#">Mar 2016</a></li>
-                    <li><a href="#">Jan 2016</a></li>
-                    <li><a href="#">Jun 2016</a></li>
-                    <li><a href="#">Aug 2016</a></li>
-                    <li><a href="#">Oct 2016</a></li>
-                    <li><a href="#">Nov 2016</a></li>
+                    <li><a href="#">Mar 2019</a></li>
+                    <li><a href="#">Apr 2019</a></li>
+                    <li><a href="#">May 2019</a></li>
+                    <li><a href="#">Jun 2019</a></li>
+                    <li><a href="#">Jul 2019</a></li>
                   </ul>
                 </div>
                 <div class="col-sm-6 col-xs-6">
                   <ul>
-                    <li><a href="#">Jul 2016</a></li>
-                    <li><a href="#">may 2016</a></li>
-                    <li><a href="#">Feb 2016</a></li>
-                    <li><a href="#">Apr 2016</a></li>
-                    <li><a href="#">Sep 2016</a></li>
-                    <li><a href="#">Dec 2015</a></li>
+                    <li><a href="#">Aug 2019</a></li>
+                    <li><a href="#">Sep 2019</a></li>
+                    <li><a href="#">Oct 2019</a></li>
+                    <li><a href="#">Nov 2019</a></li>
+                    <li><a href="#">Dec 2019</a></li>
                   </ul>
                 </div>
               </div>
             </div>
             <div class="download-services">
-              <h3>Please Download our latest News </h3>
+              <h3>Please Download our Latest News </h3>
               <a href="#">Download</a> </div>
-            <div class="unordered-list">
-              <h2> Catrgories </h2>
-              <ul>
-                <li><a href="#">Papilion Minter Savior</a></li>
-                <li><a href="#">Draught Vaein Mynel</a></li>
-                <li><a href="#">Simple Post Formatting Example</a></li>
-                <li><a href="#">My Style Statement</a></li>
-                <li><a href="#">Post with Image Slider</a></li>
-              </ul>
-            </div>
             <div class="tags">
               <h2> Tags </h2>
               <ul>
-                <li><a href="#">Tag</a></li>
-                <li><a href="#">Blog tag</a></li>
-                <li><a href="#">Service Tag</a></li>
+                <li><a href="#">Yale</a></li>
+                <li><a href="#">Heart</a></li>
+                <li><a href="#">Death</a></li>
                 <li><a href="#">News</a></li>
-                <li><a href="#">Lifestyle</a></li>
-                <li><a href="#">Music</a></li>
-                <li><a href="#">Science</a></li>
-                <li><a href="#">Health</a></li>
-                <li><a href="#">Economy</a></li>
-                <li><a href="#">Recruitement</a></li>
+                <li><a href="#">Leader</a></li>
+                <li><a href="#">Earth</a></li>
+                <li><a href="#">School</a></li>
+                <li><a href="#">Energy</a></li>
+                <li><a href="#">Environment</a></li>
+                <li><a href="#">High-Tech</a></li>
               </ul>
             </div>
           </div>
@@ -433,7 +417,7 @@
 	var d=new Date();
 	document.write(d.getFullYear());
 	</script> 
-      Yale School of Art | All Rights Reserved.</p>
+      Yale School of Art | All Rights Reserved | <a href="https://your.yale.edu/policies-procedures/policies/1605-web-accessibility-policy" style="color: #fff;">Accessibility</a></p>
 	<p class="footer-bottom" style="font-size: 10px;">This interactive media project was created by student for education purposes at the Art Institute of San Antonio and is no way intended for commerical gain or as a source of public information.</p>
   </div>
   <a id="scrool-top" href="#"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></a> 
@@ -443,6 +427,8 @@
 <script src="assets/jquery/jquery-3.1.1.min.js"></script> 
 <script src="assets/jquery/jquery.animateNumber.min.js"></script> 
 <!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/yalearticle.json"></script>
+<script src="js/yalescripts.js"></script>
 <script src="assets/easing/jquery.easing.min.js"></script> 
 <script src="assets/bootstrap/js/bootstrap.min.js"></script> 
 <script src="assets/wow/wow.min.js"></script> 
