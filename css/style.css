@@ -2,7 +2,7 @@
 /* Table of Content
 ==================================================
 
-1. Fonts - Raleway and Opensans
+1. Welcome
 2. Common CSS
 3. Loader CSS
 4. Top Wrapper
@@ -38,11 +38,10 @@
 
 /*
 ================================================
-1. Fonts - Raleway and Opensans
+1. Welcome
 ================================================
-*/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,600,700');
-/*
+/* Yale School of Art
+Concept by Adam Pagan
 ================================================
 2. Common CSS
 ================================================
@@ -520,7 +519,7 @@ header {
 	color: #fff;
 	background-color: #4678a1;
 }
-.navbar-default .navbar-nav > ul > li > a:hove ul.dropdown {
+.navbar-default .navbar-nav > ul > li > a:hover ul.dropdown {
  display:none !important;
 }
 .dropdown-menu > li > a {
@@ -566,7 +565,6 @@ header {
 }
 .banner-wrapper .fade-carousel .carousel-indicators > li {
 	margin: 0 2px;
-	background-color: none;
 	border-color: #fff;
 	border-width: 2px;
 	border-style: solid;
@@ -1156,103 +1154,7 @@ header {
 14. Testimonials Wrapper 
  ================================================
 */
-.testimonials-wrapper {
-	padding: 100px 0 95px;
-	width: 100%;
-	float: left;
-	clear: both;
-	background-image: url(https://placeholdit.imgix.net/~text?txtsize=144&bg=333&txtclr=cccccc&txt=1920%C3%97753&w=1920&h=753);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	z-index: 9;
-	position: relative;
-	border-top: 1px solid #dedede;
-}
-.testimonials-wrapper:before {
-	background: #000;
-	bottom: 0;
-	content: "";
-	left: 0;
-	opacity: 0.8;
-	position: absolute;
-	right: 0;
-	top: 0;
-	z-index: -1;
-}
-.testimonials-wrapper p {
-	text-align: center;
-	margin: 0 0 30px;
-	color: #c8c8c8;
-	line-height: 22px;
-	font-size: 14px;
-}
-.testimonials-wrapper p:before {
-	content: "\f10d";
-	font-family: 'Fontawesome';
-	float: left;
-	margin-right: 10px;
-}
-.testimonials-wrapper p:after {
-	content: "\f10e";
-	font-family: 'Fontawesome';
-	display: inline-block;
-	margin-left: 10px;
-}
-.testimonials-wrapper h2::after {
-	background-color: #fff;
-	content: "";
-	display: block;
-	height: 2px;
-	margin: 14px auto 0;
-	width: 80px;
-}
-.testimonials-wrapper h2 {
-	color: #fff;
-	font-weight: 600;
-	margin: 0 0 60px;
-	padding: 0;
-	position: relative;
-	text-align: center;
-}
-.testimonials-wrapper .item {
-	text-align: center;
-	margin: 0 15px;
-	
-}
-.testimonials-wrapper .item img {
-	text-align: center;
-	width: 100px;
-	height: 100px;
-	text-align: center;
-	line-height: 100px;
-	color: #fff;
-	font-size: 40px;
-	border: 2px solid #fff;
-	margin: 0 0 30px;
-	padding: 0;
-	border-radius: 50%;
-	object-fit: cover;
-	object-position: 40% 10;
-	overflow: hidden;
-}
-.testimonials-wrapper h3 {
-	text-align: center;
-	margin: 0 0 30px;
-	color: #e6e6e6;
-	font-size: 18px;
-	font-weight: 600;
-}
-.testimonials-wrapper h3 span {
-	font-size: 13px;
-	color: #777;
-}
-.testimonials-wrapper .owl-buttons {
-	display: none;
-}
+/* Removed
 /*
 ================================================
 15. Sponsers
@@ -2927,7 +2829,7 @@ footer .subscirbe .sub span {
 	font-weight: 600
 }
 footer .subscirbe .form input.form-control {
-	background: #2d2e2e643;
+	background: #2d2e2e;
 	border: 1px solid #000;
 	border-radius: 4px 0 0 4px;
 	color: #666!important;

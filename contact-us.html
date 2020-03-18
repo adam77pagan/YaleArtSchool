@@ -114,16 +114,21 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li class="dropdown active"><a href="index.html">Home</a></li>
-			  <li class="dropdown"> <a href="about-us.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<i class="fa fa-angle-down"></i></a>
-                    <ul class="dropdown-menu"><li><a href="contact-us.html">Contact Us</a></li></ul></li>
+              <li class="dropdown"><a href="index.html">Home</a></li>
+			  <li class="dropdown active"> <a href="about-us.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<i class="fa fa-angle-down"></i></a>
+                    <ul class="dropdown-menu">						
+						<li><a href="about-us.html">About Us</a></li>
+						<li><a href="contact-us.html">Contact Us</a></li>
+				    </ul>
+				</li>
               <li class="dropdown"> <a href="applicants.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Applicants<i class="fa fa-angle-down"></i></a>
 			  		<ul class="dropdown-menu">
+						<li><a href="applicants.html">Applicants</a></li>
 						<li><a href="admissions.html">Admissions</a></li>
-						<li><a href="images/apply.pdf">Apply Now</a></li>
+						<li ><a href="images/apply.pdf">Apply Now</a></li>
 				    </ul></li>
-              <li class="dropdown"> <a href="news.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News</a></li>
-              <li class="dropdown"> <a href="gallery.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery</a></li>
+              <li class="dropdown"> <a href="news.html">News</a></li>
+              <li class="dropdown"> <a href="gallery.html">Gallery</a></li>
             </ul>
           </div>
           <!-- /.navbar-collapse --> 
@@ -150,10 +155,11 @@
 </div>
 <!-- Inner Banner Wrapper End -->
 <section class="inner-wrapper contact-wrapper">
-  <div class="container">
+  <div class="container">    
+	  <h2>Yale School <span>of Art</span></h2>
     <div class="row">
-      <div class="inner-wrapper-main">
         <div class="contact-address">
+			
           <div class="col-sm-12 col-md-6 no-space-right">
             <div class="col-sm-6 contact"> <i class="fa fa-map-marker"></i>
               <p><span>Address</span><br>
@@ -180,7 +186,7 @@
                 <input type="text" required placeholder="Last Name" value="" name="lastname" class="txt">
                 <input type="text" required placeholder="Mobile No" value="" name="mob" class="txt">
                 <input type="text" required placeholder="Email" value="" name="email" class="txt">
-                <textarea placeholder="Message" name="mess" type="text" class="txt_3"></textarea>
+                <textarea placeholder="Message" name="mess" class="txt_3"></textarea>
                 <input type="submit" value="submit" name="submit" class="txt2">
               </form>
             </div>
@@ -188,9 +194,8 @@
         </div>
       </div>
     </div>
-  </div>
   <div id="google-map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.02424795176!2d-72.9351956848577!3d41.30833610885545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e7d9b2ead4c849%3A0x9498d8b81e55fcaf!2sYale%20School%20of%20Art!5e0!3m2!1sen!2sus!4v1583968666066!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.02424795176!2d-72.9351956848577!3d41.30833610885545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e7d9b2ead4c849%3A0x9498d8b81e55fcaf!2sYale%20School%20of%20Art!5e0!3m2!1sen!2sus!4v1583968666066!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
   </div>
 </section>
 <!-- Call to Action start -->
@@ -313,13 +318,15 @@
 <!-- Copy Rights Start -->
 <div class="footer-wrapper">
   <div class="container">
-    <p>&copy; Copyright 
-	<script type="text/javascript">
-	var d=new Date();
-	document.write(d.getFullYear());
-	</script> 
-      Yale School of Art | All Rights Reserved | <a href="https://your.yale.edu/policies-procedures/policies/1605-web-accessibility-policy" style="color: #fff;">Accessibility</a></p>
+    <p>&copy; Copyright 2020 Yale School of Art | All Rights Reserved | <a href="https://your.yale.edu/policies-procedures/policies/1605-web-accessibility-policy" style="color: #fff;">Accessibility</a></p>
 	<p class="footer-bottom" style="font-size: 10px;">This interactive media project was created by student for education purposes at the Art Institute of San Antonio and is no way intended for commerical gain or as a source of public information.</p>
+	<p><a title="W3C / Public domain" href="https://commons.wikimedia.org/wiki/File:W3C_HTML5_certified.png"><img width="88px" alt="W3C HTML5 certified" src="https://upload.wikimedia.org/wikipedia/commons/b/bb/W3C_HTML5_certified.png"></a></p>
+	  <p><a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
+	</p>
   </div>
   <a id="scrool-top" href="#"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></a> 
 </div>
